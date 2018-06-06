@@ -13,6 +13,8 @@ namespace Polygons
         {
             var square = new Square(5);
             DisplayPolygon("Square", square);
+            var triangle = new Triangle(5);
+            DisplayPolygon("Triangle", triangle);
             Console.ReadKey();
         }
         public static void DisplayPolygon(string polygonType, dynamic polygon)
